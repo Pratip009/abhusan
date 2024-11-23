@@ -49,94 +49,199 @@ const Add = ({ token: propToken }) => {
         "Terracotta jewellery",
         "Fabric jewellery",
       ],
-      collections: {}, // No collections for BENGAL'S HOUSE
+      collections: {}, // No collections for BENGALS_HOUSE
     },
     EARINGS: {
-      categories: [
-        "Studs",
-        "Jhumka",
-        "Chandballiyaan",
-        "Drops",
-        "Hoops",
-        "Sui Dhaga",
-        "Ear cuffs",
+      items: [
+        {
+          category: "Studs",
+          collections: {
+            Raajwari: ["Kundan", "Meenakari", "Polki", "Pearls"],
+            Fascinating_West: ["AD jewellery", "Anti Tarnish"],
+            Oxidised_Jewellery: [],
+          },
+          occasions: [
+            "Daily wear",
+            "Office time",
+            "Party",
+            "Casually casual",
+            "Sun rise",
+            "Moon rise",
+            "Evening tea",
+            "Cocktail night",
+          ],
+        },
+        {
+          category: "Jhumka",
+          collections: {
+            Raajwari: ["Kundan", "Meenakari", "Polki", "Pearls"],
+            Fascinating_West: ["AD jewellery", "Anti Tarnish"],
+            Oxidised_Jewellery: [],
+          },
+          occasions: [
+            "Daily wear",
+            "Office time",
+            "Party",
+            "Casually casual",
+            "Sun rise",
+            "Moon rise",
+            "Evening tea",
+            "Cocktail night",
+          ],
+        },
+        {
+          category: "Chandballiyaan",
+          collections: {
+            Raajwari: ["Kundan", "Meenakari", "Polki", "Pearls"],
+            Fascinating_West: ["AD jewellery", "Anti Tarnish"],
+            Oxidised_Jewellery: [],
+          },
+          occasions: [
+            "Daily wear",
+            "Office time",
+            "Party",
+            "Casually casual",
+            "Sun rise",
+            "Moon rise",
+            "Evening tea",
+            "Cocktail night",
+          ],
+        },
+        {
+          category: "Drops",
+          collections: {
+            Raajwari: ["Kundan", "Meenakari", "Polki", "Pearls"],
+            Fascinating_West: ["AD jewellery", "Anti Tarnish"],
+            Oxidised_Jewellery: [],
+          },
+          occasions: [
+            "Daily wear",
+            "Office time",
+            "Party",
+            "Casually casual",
+            "Sun rise",
+            "Moon rise",
+            "Evening tea",
+            "Cocktail night",
+          ],
+        },
+        {
+          category: "Hoops",
+          collections: {
+            Raajwari: ["Kundan", "Meenakari", "Polki", "Pearls"],
+            Fascinating_West: ["AD jewellery", "Anti Tarnish"],
+            Oxidised_Jewellery: [],
+          },
+          occasions: [
+            "Daily wear",
+            "Office time",
+            "Party",
+            "Casually casual",
+            "Sun rise",
+            "Moon rise",
+            "Evening tea",
+            "Cocktail night",
+          ],
+        },
+        {
+          category: "Sui Dhaga",
+          collections: {
+            Raajwari: ["Kundan", "Meenakari", "Polki", "Pearls"],
+            Fascinating_West: ["AD jewellery", "Anti Tarnish"],
+            Oxidised_Jewellery: [],
+          },
+          occasions: [
+            "Daily wear",
+            "Office time",
+            "Party",
+            "Casually casual",
+            "Sun rise",
+            "Moon rise",
+            "Evening tea",
+            "Cocktail night",
+          ],
+        },
+        {
+          category: "Ear cuffs",
+          collections: {
+            Raajwari: ["Kundan", "Meenakari", "Polki", "Pearls"],
+            Fascinating_West: ["AD jewellery", "Anti Tarnish"],
+            Oxidised_Jewellery: [],
+          },
+          occasions: [
+            "Daily wear",
+            "Office time",
+            "Party",
+            "Casually casual",
+            "Sun rise",
+            "Moon rise",
+            "Evening tea",
+            "Cocktail night",
+          ],
+        },
       ],
-      collections: {
-        Raajwari: ["Kundan", "Meenakari", "Polki", "Pearls"],
-        Fascinating_West: ["AD jewellery", "Anti Tarnish"],
-        Oxidised_Jewellery: [],
-      },
     },
     NECKLACE: {
-      categories: [
-        "Chokers",
-        "Pendants",
-        "Pendant sets",
-        "Layered",
-        "Short Length",
-        "Medium Length",
-        "Heavy weight",
-        "Light weight",
+      items: [
+        {
+          category: "Chokers",
+          collections: {
+            Raajwari: ["Kundan", "Meenakari", "Polki", "Pearls"],
+            Fascinating_West: ["AD jewellery", "Anti Tarnish"],
+            Oxidised_Jewellery: [],
+          },
+          occasions: [
+            "Daily wear",
+            "Office time",
+            "Party",
+            "Casually casual",
+            "Sun rise",
+            "Moon rise",
+            "Evening tea",
+            "Cocktail night",
+          ],
+        },
+        {
+          category: "Pendants",
+          collections: {
+            Raajwari: ["Kundan", "Meenakari", "Polki", "Pearls"],
+            Fascinating_West: ["AD jewellery", "Anti Tarnish"],
+            Oxidised_Jewellery: [],
+          },
+          occasions: [
+            "Daily wear",
+            "Office time",
+            "Party",
+            "Casually casual",
+            "Sun rise",
+            "Moon rise",
+            "Evening tea",
+            "Cocktail night",
+          ],
+        },
       ],
-      collections: {
-        Raajwari: ["Kundan", "Meenakari", "Polki", "Pearls"],
-        Fascinating_West: ["AD jewellery", "Anti Tarnish"],
-        Oxidised_Jewellery: [],
-      },
     },
     RINGS: {
-      categories: [
-        "Couple Rings",
-        "Adjustable Rings",
-        "Light Weight",
-        "Cocktail",
+      items: [
+        {
+          category: "Couple Rings",
+          collections: {
+            Raajwari: ["Kundan", "Meenakari", "Polki", "Pearls"],
+            Fascinating_West: ["AD jewellery", "Anti Tarnish"],
+            Oxidised_Jewellery: [],
+          },
+          occasions: [
+            "Daily wear",
+            "Office time",
+            "Party",
+            "Casually casual",
+            "Sun rise",
+            "Moon rise",
+            "Evening tea",
+            "Cocktail night",
+          ],
+        },
       ],
-      collections: {
-        Raajwari: ["Kundan", "Meenakari", "Polki", "Pearls"],
-        Fascinating_West: ["AD jewellery", "Anti Tarnish"],
-        Oxidised_Jewellery: [],
-      },
-    },
-    BANGLES_AND_BRACELETS: {
-      categories: [
-        "Kada’s",
-        "Single Bangles",
-        "Pair Bangles",
-        "Bangles Set (Set of 4)",
-        "Bangles Set (Set of 6)",
-        "Chain Bracelets",
-        "Adjustable",
-        "Mangalsutra bracelets",
-        "Evil eye",
-        "Infinity",
-        "Light weight",
-      ],
-      collections: {}, // No collections for BANGLES_AND_BRACELETS
-    },
-    ACCESSORIES: {
-      categories: [
-        "Mangalsutra",
-        "Anklet",
-        "Nath",
-        "Nosepin",
-        "Toe rings",
-        "Hathphool",
-        "Kamarbandh",
-        "Bajubandh",
-        "Matils",
-        "Brooch",
-      ],
-      collections: {}, // No collections for ACCESSORIES
-    },
-    HAIR_ACCESSORIES: {
-      categories: [
-        "Hair clips",
-        "Hair pins",
-        "Hair brooch",
-        "Sheeshphool",
-        "Mangtika",
-      ],
-      collections: {}, // No collections for HAIR_ACCESSORIES
     },
   };
 
@@ -403,6 +508,27 @@ const Add = ({ token: propToken }) => {
             className="w-full max-w-[500px] px-3 py-2"
           >
             <option value="">Select Collection</option>
+            {(subCategories[category]?.collections?.[subCategory] || []).map(
+              (collection) => (
+                <option key={collection} value={collection}>
+                  {collection}
+                </option>
+              )
+            )}
+          </select>
+        </div>
+        <div>
+          <p className="mb-2">Collection</p>
+          <select
+            onChange={(e) => {
+              const selectedCollection = e.target.value;
+              setSubSubCategory(selectedCollection);
+              console.log("Selected collection:", selectedCollection);
+            }}
+            value={subSubCategory}
+            className="w-full max-w-[500px] px-3 py-2"
+          >
+            <option value="">Select Product</option>
             {(subCategories[category]?.collections?.[subCategory] || []).map(
               (collection) => (
                 <option key={collection} value={collection}>
